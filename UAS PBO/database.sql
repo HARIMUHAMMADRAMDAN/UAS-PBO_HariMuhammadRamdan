@@ -1,0 +1,3 @@
+CREATE DATABASE hari_pbo_spring_restful_api;
+
+USE hari_pbo_spring_restful_api
