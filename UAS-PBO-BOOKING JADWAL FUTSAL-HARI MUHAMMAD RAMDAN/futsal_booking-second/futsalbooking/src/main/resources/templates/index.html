@@ -1,0 +1,49 @@
+<html xmlns="http://thymeleaf.org">
+
+<head>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" type="text/css">
+    </link>
+    <link th:href="@{/css/heroic-features.css}" rel="stylesheet" type="text/css">
+    </link>
+    <link th:href="@{/css/font-awesome.css}" rel="stylesheet" type="text/css">
+    </link>
+</head>
+
+<body>
+    <div class="container">
+
+        <div th:insert="fragments/navigation :: header"></div>
+
+        <!-- Page Content -->
+        <div class="container">
+
+            <!-- Jumbotron Header -->
+            <header class="jumbotron my-4">
+                <h1 class="display-3">A Warm Welcome!</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo
+                    sunt
+                    possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat
+                    numquam
+                    repellat.</p>
+                <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
+            </header>
+
+            <!-- Page Features -->
+            <div id="contents" class="row text-center">
+
+
+
+
+            </div>
+            <!-- /.row -->
+
+
+
+
+        </div>
+        <script type="text/javascript" th:src="@{/js/jquery.min.js}"></script>
+        <script type="text/javascript" th:src="@{/js/bootstrap.bundle.min.js}"></script>
+        <script type="text/javascript" th:src="@{/js/app.js}"></script>
+</body>
+
+</html>
